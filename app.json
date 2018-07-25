@@ -1,0 +1,11 @@
+{
+    "name": "Microservices que trada de informações refente a Cartão de Credito",
+    "description": "Microservices parte da a aplicação Minhas Despesas com deploy no Heroku.",
+    -"addons": [ "heroku-postgresql" ],
+    "env": {
+        "MAVEN_CUSTOM_OPTS": {
+            "description": "Custom Maven options for the buildpack",
+            "value": "-DskipTests -pl heroku-example"
+        }
+    }
+}
